@@ -672,7 +672,6 @@ img {
 .backdrop.is-hidden .modal {
   opacity: 0;
   transform: translate(-50%, 40%);
-  transition-delay: 0;
 }
 
 .modal-btn {
