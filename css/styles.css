@@ -567,10 +567,10 @@ img {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.works-link:hover .works-overlay,
+/* .works-link:hover .works-overlay,
 .works-link:focus .works-overlay {
   transform: translateY(0%);
-}
+} */
 
 .works-link:hover .works-text,
 .works-link:focus .works-text {
@@ -582,7 +582,7 @@ img {
   overflow: hidden;
 }
 
-.works-overlay {
+/* .works-overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -592,7 +592,7 @@ img {
   background-color: var(--iris-accent-color);
 
   transition: transform var(--duration) var(--timing-fucntion);
-}
+} */
 
 .works-text {
   position: absolute;
