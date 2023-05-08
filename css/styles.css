@@ -153,7 +153,7 @@ img {
 }
 
 .header-nav-link.current {
-  color: var(--ocean-accent-color);
+  color: #404bbf;
 }
 
 .header-nav-link::after {
@@ -169,7 +169,7 @@ img {
 }
 
 .header-nav-link.current::after {
-  background-color: var(--ocean-accent-color);
+  background-color: #404bbf;
 }
 
 /* .current { */
@@ -569,6 +569,11 @@ img {
 
 .works-link:hover .works-overlay,
 .works-link:focus .works-overlay {
+  transform: translateY(0%);
+}
+
+.works-link:hover .works-text,
+.works-link:focus .works-text {
   transform: translateY(0%);
 }
 
